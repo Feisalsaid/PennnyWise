@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="signup.css">
+    <script src="validation.js" defer></script>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="logo">
+            <img src="signin.png" alt="logo">
+        </div>
+        
+
+    <div class="signup">
+    <h1>Signup</h1>
+    
+    <form id= "firstform" action="processsignup.php" method="post" >
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div>
+            <label for="email">email</label>
+            <input type="email" id="email" name="email">
+        </div>
+        
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        </div>
+        
+        <div>
+            <label for="password_confirmation">Repeat password</label>
+            <input type="password" id="password_confirmation" name="password_confirmation">
+        </div>
+        
+        <button>Sign up</button>
+    </form>
+    </div>
+    
+</body>
+</html>

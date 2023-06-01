@@ -1,0 +1,10 @@
+body {
+    background: linear-gradient(to bottom, rgb(248, 250, 250), rgb(7, 118, 183));
+    display: list-item;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   margin-left: 40%;
+   margin-top: 15%;
+    
+}

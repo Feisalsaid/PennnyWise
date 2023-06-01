@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(to bottom, rgb(248, 250, 250), rgb(7, 118, 183));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .wrapper {
+    position: relative;
+    padding-top: 60px;
+  }
+  
+  .logo {
+    position: absolute;
+    top: -110px;
+    left: 25px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .logo img {
+    max-width: 500%;
+    max-height: 500%;
+  }
+  
+  .incme {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .incme h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(29, 146, 224);
+  }
+  
+  .incme form {
+    display: flex;
+    flex-direction: column;
+    color: #2582e7;
+  }
+  
+  .incme label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .incme input[type="text"],
+  .incme input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #3097d3;
+  }
+  
+  .incme button.btn {
+    padding: 10px 15px;
+    background-color: #1e77e5;
+    color: rgb(14, 106, 168);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .incme button.btn:hover {
+    background-color: #0e6aa8;
+    color: white;
+  }
+  
+ 
+  
+  

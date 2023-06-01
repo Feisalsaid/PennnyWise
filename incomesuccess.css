@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(to bottom, rgb(248, 250, 250), rgb(7, 114, 180));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  h1 {
+    font-size: 32px;
+    color: rgb(12, 109, 165);
+  }
+  
+  p {
+    font-size: 24px;
+  }
+  
+  a {
+    font-size: 24px;
+    color: black;
+    font-style: italic;
+  }

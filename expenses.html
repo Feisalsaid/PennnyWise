@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Expense</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="income.css">
+  </head>
+<body>
+    <div class="wrapper">
+        <div class="logo">  
+            <img src="signin.png" alt="logo">
+
+    </div>
+    <div class="incme">  
+    <h1>Create New Expense</h1>
+    
+    <form  action="expensesprocess.php" method="post" >
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div>
+            <label for="amount">Amount</label>
+            <input type="number" id="amount" name="amount" required>
+        </div>   
+        <button>Save</button>
+
+        <a href="index.php"> <i> Home</i></a>
+    </form>
+    </div>
+    
+</body>
+</html>
